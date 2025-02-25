@@ -1,0 +1,12 @@
+@import './base.css';
+
+#twpxVuePvz {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#twpxVuePvz,
+#twpxVuePvz * {
+  box-sizing: border-box;
+}

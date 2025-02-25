@@ -1,13 +1,13 @@
 import { createRouter, createMemoryHistory } from 'vue-router';
-import SearchView from '../views/SearchView.vue';
+import LocationView from '../views/LocationView.vue';
 
 const router = createRouter({
   history: createMemoryHistory(),
   routes: [
     {
       path: '/',
-      name: 'search',
-      component: SearchView,
+      name: 'location',
+      component: LocationView,
     },
     {
       path: '/map',

@@ -5,8 +5,8 @@ import TheModal from './components/TheModal.vue';
 
 <template>
   <div class="twpx-vue-pvz-app">
-    <TheButton @clickButton="showModal" />
-    <TheModal />
+    <TheButton @clickButton="console.log('showModal')" />
+    <TheModal :isOpen="true" @close="console.log('close')" />
   </div>
 </template>
 
